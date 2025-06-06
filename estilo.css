@@ -1,0 +1,149 @@
+#home {
+	background: #F2dcc9;
+	color: rgb(255, 255, 255);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f2dcc9;
+}
+
+h1 {
+	color: #f27141;
+	margin-top: -50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.display-4 {
+		color: #f27141;
+	margin-top: -50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h2, h4 {
+	color: #f27141;
+}
+
+p {
+	color: #7c57b6;
+}
+
+hr {
+  width: 100%;
+  border-bottom: 1px solid #e2cdba;
+}
+
+.bg-persona {
+    background-color: #f2dcc9;
+  }
+
+.btn-botao {
+    background-color: #7c57b6;
+	color: #ffffff;
+  }
+
+.btn-botao:hover {
+    background-color: #f27141;
+	color: #ffffff;
+  }
+
+.abaixo {
+	color: #7c57b6;
+	text-decoration: none;
+}
+
+.abaixo:hover {
+	color: #7c57b6;
+	color: #f27141;
+	text-decoration: none;
+}
+
+.saiba {
+	padding: 60px 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+.levitacao {
+	position: relative; left: 100px;
+}
+.logo {
+	width: 250px;
+}
+
+.btn-outline-light {
+	border-color: #7c57b6;
+	color: #ffffff;
+	background-color: #7c57b6;
+}
+
+.btn-outline-light:hover {
+    background-color: #f27141;
+    color: #ffffff;; 
+    border-color: #f27141;
+}
+
+.botao-cadastro {
+	border-color: #7c57b6;
+	color: #ffffff;
+	background-color: #7c57b6;
+	position: relative; right: 23px;
+}
+
+.botao-cadastro:hover {
+    background-color: #f27141;
+    color: #ffffff;; 
+    border-color: #f27141;
+}
+
+.btn-outline-dark:hover {
+    background-color: #f27141;
+    color: #ffffff;; 
+    border-color: #f27141;
+}
+
+.img-fluid {
+	border-radius: 20px;
+}
+
+.img-icons {
+	width: 200px;
+	position: relative; left: 80px;
+}
+
+.img-icon-shield {
+	width: 180px;
+	position: relative; left: 50px;
+}
+
+.img-icon-lamp {
+	width: 200px;
+	position: relative; left: 80px;
+	position: relative; top: -10px;
+}
+
+section {
+  border: none !important;
+}
+
+.mapa {
+    width: 1050%;
+    max-width: 100px; /* Slightly larger max video width */
+	position: center; /* Ensure video is above pseudo-elements */
+	margin-left: 4%;
+}
+
+.mapa iframe {
+	position: center;
+	margin-left: 4%;
+    border-radius: 12px;
+    width: 1050%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: none; /* Remove border */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta Tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="icon" type="img/favicon.ico" href="img/favicon.ico">
+
+    <!-- Estilo Customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Levitar - Escola de Levitação</title>
+  </head>
+  <body>
+    
+    <!-- Inicio do Cabecalho -->
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-persona">
+        <div class="container">
+          
+          <!-- Inicio do Botão: Aba Inicio clicando na Logo -->
+          <a href="index.html" class="navbar-brand">
+            <img src="img/logo.png" class="logo" width="142">
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Fim do Botão: Aba inicio clicando na Logo -->
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Início</a> <!-- Botão: Inicio do Cabecalho -->
+              </li>
+              <li class="nav-item">
+                <a href="guia.html" class="nav-link">Guia</a> <!-- Botão: Guia do Cabecalho -->
+              </li>
+              <li class="nav-item">
+                <a href="equipe.html" class="nav-link">Equipe</a> <!-- Botão: Equipe do Cabecalho -->
+              </li>
+              <li class="nav-item">
+                <a href="feedback.html" class="btn btn-outline-light ml-4">Feedback</a> <!-- Botão Principal: Feedback do Cabecalho -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <hr>
+    <!-- Fim do Cabecalho -->
+
+    <section id="home"> <!-- Inicio da Seção: Home -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4">É muito bom ouvir você!</h1>
+              <p>
+                Deixe sua dúvida ou opinião abaixo e nós estaremos avaliando! Supere limites e transforme sua experiência corporal.
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/sr-levitacao.png" class="levitacao">
+          </div>
+        </div>
+      </div>
+    </section> 
+    <hr> <!-- Fim da Seção: Home -->
+
+<div class="container"> <!-- Inicio do Formulário: Feedback -->
+    <br>
+    <form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="uname">Email:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Insira seu email" name="uname" required>
+      <div class="valid-feedback">Válido.</div>
+      <div class="invalid-feedback">Preencha este campo.</div>
+    </div>
+    <div class="form-group">
+  <label for="comment">Escreva sua dúvida e/ou opinião:</label>
+  <textarea class="form-control" rows="5" id="comment" required></textarea>
+  <div class="valid-feedback">Válido.</div>
+        <div class="invalid-feedback">Preencha este campo.</div>
+</div>
+<div class="form-group form-check">
+  <label class="form-check-label">
+    <input id="termos" class="form-check-input" type="checkbox" name="remember" required> Eu concordo com os termos.
+    <div class="valid-feedback">Válido.</div>
+    <div class="invalid-feedback">Preencha este campo.</div>
+  </label>
+  </div>
+  <button type="button" onclick="enviar()" class="btn btn-botao">Enviar</button> <!-- Botão Enviar: Feedback -->
+  <br>
+  <br>
+  <p id="mensagem" style="color: green; font-weight: bold;"></p>
+  </form>
+  </div>
+  <br>
+<hr>
+<!-- Fim do Formulário: Feedback -->
+
+    <footer class="mt-4 mb-4"> <!-- Inicio da Seção: Footer (Rodapé) -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p>
+              <a href="index.html" class="abaixo">Início</a>
+              <a href="guia.html" class="abaixo">Guia</a>
+              <a href="equipe.html" class="abaixo">Equipe</a>
+            </p>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark ml-2">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer> <!-- Fim da Seção: Footer (Rodapé) -->
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <!-- Script (ROTEIRO): jQuery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> <!-- Script (ROTEIRO): Popper.js -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> <!-- Script (ROTEIRO): Bootstrap JS -->
+
+    <script>
+    function enviar() {
+    if (document.getElementById('termos').checked) {
+    alert('Enviado com sucesso!');
+    document.getElementById('mensagem').innerText = 'Enviado com sucesso!';
+    } else {
+    alert('Você precisa concordar com os termos.');
+    document.getElementById('mensagem').innerText = '';
+      }
+    }
+    </script> <!-- Script (ROTEIRO): Enviar o feedback -->
+
+  </body>
+</html>
