@@ -132,8 +132,8 @@ section {
 
 .mapa {
     width: 1050%;
-    max-width: 100px; /* Slightly larger max video width */
-	position: center; /* Ensure video is above pseudo-elements */
+    max-width: 100px; 
+	position: center; 
 	margin-left: 4%;
 }
 
@@ -144,7 +144,7 @@ section {
     width: 1050%;
     aspect-ratio: 16 / 9;
     height: auto;
-    border: none; /* Remove border */
+    border: none; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
