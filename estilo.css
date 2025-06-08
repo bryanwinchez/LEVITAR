@@ -147,3 +147,50 @@ section {
     border: none; /* Remove border */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
+
+<! -- RESPONSIVO -- >
+.mapa {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  h1, .display-4 {
+    font-size: 1.8rem;
+    margin-top: 0;
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .levitacao {
+    left: 0 !important;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .img-icons, .img-icon-shield, .img-icon-lamp {
+    position: static !important;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (min-width: 1920px) {
+  h1.display-4 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    width: 300px;
+  }
+}
