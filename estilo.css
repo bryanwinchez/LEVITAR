@@ -177,6 +177,11 @@ section {
     margin: 0 auto;
     display: block;
   }
+.img-fluid {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 @media (min-width: 1920px) {
