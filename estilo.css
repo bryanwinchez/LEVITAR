@@ -131,21 +131,19 @@ section {
 }
 
 .mapa {
-    width: 1050%;
-    max-width: 100px; 
-	position: center; 
-	margin-left: 4%;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem 0;
 }
 
 .mapa iframe {
-	position: center;
-	margin-left: 4%;
-    border-radius: 12px;
-    width: 1050%;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    border: none; 
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  display: block;
 }
 
 <! -- RESPONSIVO -- >
