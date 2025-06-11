@@ -79,10 +79,10 @@
 <!-- Inicio do Formulário: Cadastre-se -->
 <div class="container">
     <br>
-    <form action="/action_page.php" class="was-validated">
+    <form action="https://formsubmit.co/levitar.escola@gmail.com" method="POST">
     <div class="form-group">
-      <label for="uname">Nome completo:</label>
-      <input type="text" class="form-control" id="uname" placeholder="Insira seu nome completo" name="uname" required>
+      <label for="nome">Nome completo:</label>
+      <input type="text" class="form-control" id="nome" name="nome" required placeholder="Insira seu nome completo">
       <div class="valid-feedback">Válido.</div>
       <div class="invalid-feedback">Preencha este campo.</div>
     </div>
@@ -94,7 +94,7 @@
 
 <div class="form-group">
   <label for="email">Email:</label>
-    <input type="text" class="form-control" placeholder="Insira seu email" required>
+    <input type="email" class="form-control" id="email" name="email" required placeholder="Insira seu e-mail">
     <span class="input-group-text">@exemplo.com</span>
           <div class="valid-feedback">Válido.</div>
       <div class="invalid-feedback">Preencha este campo.</div>
@@ -107,7 +107,7 @@
     <div class="invalid-feedback">Preencha este campo.</div>
   </label>
     </div>
-    <button type="button" onclick="enviar()" class="btn btn-botao">Enviar</button> <!-- Botão Enviar: Feedback -->
+    <button type="submit" class="btn btn-botao">Enviar</button> <!-- Botão Enviar: Feedback -->
     <br>
     <br>
     <p id="mensagem" style="color: green; font-weight: bold;"></p>
